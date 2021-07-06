@@ -7,7 +7,12 @@ import cucumber.junit.Cucumber;
 @Cucumber.Options(
 
 //format = {"pretty", "html:target/cucumber"}
- format = {"pretty", "html:target/cucumber"}
+ plugin = {
+                "pretty",
+                "html:results/html",
+                "json:results/json/result.json",
+                "junit:results/junit/cucumber.xml"
+        }
        
         
        
