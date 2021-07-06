@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @Cucumber.Options(
 
 //format = {"pretty", "html:target/cucumber"}
- format={"json:target/cucumber/cucumber.json"}
+ format={"json:target/cucumber.json"}
        
         
        
