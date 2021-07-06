@@ -4,6 +4,8 @@
   <artifactId>CucumberTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <build>
+  <plugins>
   <plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
@@ -47,6 +49,8 @@
         </execution>
     </executions>
 </plugin>
+    </plugins>
+  </build>
  
   <dependencies
   
