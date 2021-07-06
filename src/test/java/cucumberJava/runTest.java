@@ -11,7 +11,7 @@ import cucumber.junit.Cucumber;
        
         format= {"pretty","html:test-output_1",
                 "json:target/cucumber-reports/CucumberTestReport.json"},
-        plugin = ("json:target/cucumber-reports/CucumberTestReport.json"),
+        plugin = ("json:target/cucumber-reports/CucumberTestReport.json")
        
  
                  ) 
